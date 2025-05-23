@@ -8,7 +8,7 @@ import { API_URL } from '../../constants/api';
 import { Ionicons } from "@expo/vector-icons";
 import { formatPublishDate } from '../../lib/utils';
 
-const sleep = (ms) => new Promise((resolve) => setTimetout(resolve, ms));
+export const sleep = (ms) => new Promise((resolve) => setTimetout(resolve, ms));
 
 
 
